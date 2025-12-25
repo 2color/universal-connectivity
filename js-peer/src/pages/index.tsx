@@ -6,7 +6,7 @@ import { useState } from 'react'
 import ConnectionInfoButton from '@/components/connection-info-button'
 
 export default function Chat() {
-  const [isConnectionPanelOpen, setIsConnectionPanelOpen] = useState(true)
+  const [isPanelOpen, setisPanelOpen] = useState(false)
 
   const handleOpenConnectionPanel = () => {
     setIsConnectionPanelOpen(true)
